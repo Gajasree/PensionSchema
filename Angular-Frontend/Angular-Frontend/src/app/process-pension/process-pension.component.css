@@ -1,0 +1,92 @@
+body,
+.bgcolor {
+  background-color: #fcde67;
+
+}
+
+body {
+  height: 87%;
+  overflow: hidden;
+
+}
+.images  {
+    content: url(logoppp.png);
+}
+
+.button {
+    display: inline-flex;
+    height: 40px;
+    width: 350px;
+    border: 2px solid #2D3142;
+    margin: 20px 20px 20px 20px;
+    color: #2D3142;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: .8em;
+    letter-spacing: 1.5px;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 20px;
+  }
+  
+  a {
+    color: #2D3142;
+    text-decoration: none;
+    letter-spacing: 1px;
+  }
+  
+  
+ 
+
+  #button-7 {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  #button-7 a {
+    position: relative;
+    left: 0;
+    transition: all .35s ease-Out;
+  }
+  
+  #dub-arrow {
+    width: 100%;
+    height: 100%;
+    background: #2D3142;
+    color: #fcde67;
+    font-size: large;
+    left: -350px;
+    position: absolute;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .35s ease-Out;
+    bottom: 0;
+  }
+  
+  #button-7 img {
+    width: 20px;
+    height: auto;
+  }
+  
+  #button-7:hover #dub-arrow {
+    left: 0;
+  }
+  
+  #button-7:hover a {
+    left: 150px;
+  }
+  
+  @media screen and (min-width:1000px) {
+    h1 {
+      font-size: 2.2em;
+    }
+    #container {
+      width: 50%;
+    }
+  }
+
+

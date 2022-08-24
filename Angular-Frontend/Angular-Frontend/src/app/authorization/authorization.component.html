@@ -1,0 +1,96 @@
+
+<!-- <div class="container">
+  <div class="row text">
+    <div class="col-md-6">
+      <h1 style="text-align: center;">LOG IN</h1>
+      <div style="border:2px solid;border-radius: 5%;margin: 30px;padding: 15px;">
+        <form (ngSubmit)="onSubmit()" class="form">
+
+          <div class="form-group row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+              <input type="text" class="form-control" name="userid" [(ngModel)]="credentials.userid"
+                placeholder="USER ID" required="" />
+            </div>
+
+          </div>
+          <div class="form-group row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+              <input type="text" class="form-control" name="uname" [(ngModel)]="credentials.uname"
+                placeholder="USERNAME" required="" />
+            </div>
+
+            <div class="col-md-2"></div>
+          </div>
+          <div class="form-group row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+              <input type="password" class="form-control" name="upassword" [(ngModel)]="credentials.upassword"
+                placeholder="PASSWORD" required="" />
+            </div>
+            <div class="col-md-2"></div>
+          </div>
+          <div class="form-group">
+            <div class="row">
+              <div class="col-md-1"></div>
+              <div class="col-md-4">
+                <button type="submit" class="btn btn-success">Login</button><br>
+              </div>
+              <div class="col-md-3">
+                <button type="reset" class="btn btn-success">reset</button><br>
+              </div>
+              <div class="col-md-1"></div>
+            </div>
+          </div>
+        </form>
+        {{credentials | json}}
+      </div>
+    </div>
+    <div class="col-md-3"></div>
+
+
+  <img class="bgcolor" />
+</div>
+</div> -->
+
+<div class="content">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <img src="/assests/undraw_remotely_2j6y.svg" alt="Image" class="img-fluid bgcolor">
+      </div>
+      <div class="col-md-6 contents">
+        <div class="row justify-content-center">
+          <div class="col-md-8">
+            <div class="mb-4">
+            <h3 class="header">Sign In</h3>
+            <p class="mb-4">Login to the Pension Portal.<span class="text-danger">(Case Senstive)</span></p>
+          </div>
+          <form (ngSubmit)="onSubmit()" class="form">
+            <div class="form-group first">
+            
+              <input type="text" class="form-control" name="userid" [(ngModel)]="credentials.userid"
+              placeholder="USER ID" required/>
+            </div>
+            <div class="form-group first">
+            
+              <input type="text" class="form-control" name="uname" [(ngModel)]="credentials.uname"
+              placeholder="USERNAME" required />
+            </div>
+            <div class="form-group last mb-4">
+           <input type="password" class="form-control" name="upassword" [(ngModel)]="credentials.upassword"
+                placeholder="PASSWORD" required />
+              
+            </div>
+            <button type="submit"class ="custom-btn btn-3"><span>Login</span></button>
+          </form>
+          
+          </div>
+        </div>
+        
+      </div>
+      
+    </div>
+  </div>
+</div>
